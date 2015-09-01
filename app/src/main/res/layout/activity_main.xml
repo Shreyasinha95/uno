@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.helloshreya.calone.MainActivity"
+    >
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rrsandy_maths_sharon_turner_scrummy_things_shop_preview"
+    android:alpha=".5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/head1"
+        android:id="@+id/title"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+    <Button
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="Add two"
+    android:textSize="20dp"
+    android:id="@+id/addB"
+    />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:alpha=".5"
+        android:text="sub one"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/addB"
+        android:id="@+id/subB"
+         />
+
+</RelativeLayout>

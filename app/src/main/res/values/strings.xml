@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalOne</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="head">Large Text</string>
+    <string name="head1">Your Total is 0</string>
+    <string name="title_activity_starting">Starting</string>
+    <string name="calculate">CalOne</string>
+    <string name="mathmade">Maths made easy...</string>
+</resources>
